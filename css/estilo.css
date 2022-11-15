@@ -111,7 +111,7 @@ body {
     
     width: 25px;
     height: 25px;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
     
 
 }
@@ -129,7 +129,7 @@ body {
     text-align: center;
     font-family: 'Noto Serif', serif;
     font-style: italic;
-    padding: 10px 30px;
+    padding: 10px 20px;
 
 }
 
@@ -139,6 +139,7 @@ body {
     background-color: var(--LightCoral);
     display: inline;
     padding: 10px 10px;
+    margin: 0px 0px 0px 20px ;
     font-size: 15px;
     transition: .8s ease all;
     color: var(--white-light); 
@@ -185,7 +186,8 @@ body {
 
     width: 100%;
     z-index: 999;
-    background: var(--LightCoral);
+   
+    
     text-align: center;
     font-family: 'Noto Serif', serif;
     font-style: italic;
@@ -195,7 +197,10 @@ body {
 .menu__item {
     background-color: var(--LightCoral);
     display: inline;
+    margin: 50px;
+    box-shadow: 30px;
     padding: 10px 30px;
+    border-radius: 20px;
     font-size: 26px;
     transition: .8s ease all;
     color: var(--white-light);   
